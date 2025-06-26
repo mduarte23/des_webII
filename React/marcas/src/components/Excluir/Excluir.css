@@ -1,0 +1,12 @@
+.btn-excluir-modal {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-excluir-modal:hover {
+  background-color: #c82333;
+}

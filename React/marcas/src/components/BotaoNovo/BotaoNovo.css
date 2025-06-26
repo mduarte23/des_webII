@@ -1,0 +1,20 @@
+.botao-novo {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  height: 50px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 10px rgba(59, 130, 246, 0.3);
+  
+}
+
+.botao-novo:hover {
+  background-color: #60a5fa;
+  transform: translateY(-2px) scale(1.05);
+}

@@ -1,0 +1,70 @@
+.tabela-container {
+  overflow-x: auto;
+  margin: 20px 0;
+}
+
+.tabela {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.tabela th,
+.tabela td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabela-cabecalho {
+  background-color: #2c2c2c;
+  color: #ffffff;
+  padding: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.tabela-linha:hover {
+  background-color: #2a2a2a;
+}
+
+.tabela-celula {
+  padding: 12px;
+  color: #f2f2f2;
+  font-size: 15px;
+  border-bottom: 1px solid #333;
+}
+
+.tabela-acoes {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-editar,
+.btn-excluir {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.btn-editar:hover {
+  transform: rotate(-10deg) scale(1.2);
+}
+
+.btn-excluir:hover {
+  transform: rotate(-10deg) scale(1.2);
+}
+
+.tabela-celula a {
+  color: #3b82f6;
+  text-decoration: none;
+}
+
+.tabela-celula a:hover {
+  text-decoration: underline;
+}
